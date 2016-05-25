@@ -1,0 +1,22 @@
+<div>
+    <div class="modal-body">
+        <aside class="main-sidebar">
+            <section class="sidebar">
+                <div class="liste" >
+                    <div class="item" >
+                        <p ui-sref="app.home"  class="headTree {{text_right}}" ng-class=" {active:getActiveMen()=='home'} "  ng-click="setActiveMen('home');cancel($event)"  >
+                            <img class="icon-menu {{float_right}} {{top_arab}}" src="img/menu_accueil.png"/>
+                            <span class="{{margin_menu}}">home</span>
+                        </p>
+                    </div>
+                    <div class=" item">
+                        <p ui-sref="app.home" class="headTree {{text_right}}" ng-class=" {active:getActiveMen()=='item2'} "  ng-click="setActiveMen('item2');cancel($event)">
+                            <img class="icon-menu {{float_right}} concour-img {{top_arab}}" src="img/menu_personne.png"/>
+                            <span class=" {{margin_menu}}">item2</span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </aside>
+    </div>
+</div>
