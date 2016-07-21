@@ -99,7 +99,7 @@
 }
 
 .ng-aside.vertical .modal-dialog .modal-content {
-  max-height: 400px;
+  height: 100% !important;
 }
 
 .ng-aside.vertical.top .modal-dialog {
@@ -147,4 +147,44 @@
 
 .ng-aside.vertical .modal-dialog .modal-content {
   width: 100%;
+}
+
+.modal-backdrop.in {
+  filter: alpha(opacity=50);
+  opacity: .8 !important;
+}
+.modal {
+  top: 52px !important;
+}
+.ng-aside.horizontal  {
+  /*width: 275px !important;*/
+}
+.modal-dialog {
+  width: 275px !important;
+}
+.fa-white-color
+{
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+/*.modal,.fade,.ng-isolate-scope,.ng-aside,.horizontal,.left,.in{
+    z-index: 1 !important;
+}*/
+
+.fade.modal-backdrop.in {
+  z-index: 1 !important;
+}
+.modal-body {
+  padding: 0px !important;
+}
+
+.modal-backdrop{
+  position: relative !important;
+  overflow: hidden !important;
+  height: 100%;
+  top: -50px !important;
+}
+.menuContent {
+  overflow: hidden !important;
 }
